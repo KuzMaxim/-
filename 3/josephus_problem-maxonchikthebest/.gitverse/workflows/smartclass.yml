@@ -1,0 +1,11 @@
+name: Autograding Tests
+on:
+  - pull_request
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Autograding Reporter
+        uses: https://gitverse.ru/art/autograding-grading-reporter@v2

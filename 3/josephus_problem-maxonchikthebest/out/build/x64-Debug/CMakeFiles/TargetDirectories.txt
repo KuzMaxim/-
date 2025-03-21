@@ -1,0 +1,3 @@
+C:/Users/Ег/Desktop/ООП/3/josephus_problem-maxonchikthebest/out/build/x64-Debug/CMakeFiles/test_basic.dir
+C:/Users/Ег/Desktop/ООП/3/josephus_problem-maxonchikthebest/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Ег/Desktop/ООП/3/josephus_problem-maxonchikthebest/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

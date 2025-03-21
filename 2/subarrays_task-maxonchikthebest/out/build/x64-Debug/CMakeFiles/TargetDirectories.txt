@@ -1,0 +1,3 @@
+C:/Users/Ег/Desktop/ООП/2/subarrays_task-maxonchikthebest/out/build/x64-Debug/CMakeFiles/test_basic.dir
+C:/Users/Ег/Desktop/ООП/2/subarrays_task-maxonchikthebest/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+C:/Users/Ег/Desktop/ООП/2/subarrays_task-maxonchikthebest/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

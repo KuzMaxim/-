@@ -1,0 +1,4 @@
+# ninja log v5
+6	1370	7636586628734510	CMakeFiles/test_basic.dir/src/library.cpp.obj	ad9b3998c26f894b
+20	1013	7636588334601628	CMakeFiles/test_basic.dir/tests/test_basic.cpp.obj	83c0b9a579dc3067
+1014	1277	7636588336688892	test_basic.exe	6471e559b8e37099

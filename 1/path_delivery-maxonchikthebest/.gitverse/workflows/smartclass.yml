@@ -1,0 +1,23 @@
+name: Autograding Tests
+on:
+  - pull_request
+jobs:
+  run-autograding-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - id: test1
+        name: SimpleTest
+        uses: https://gitverse.ru/art/autograding-command-grader@v2
+        with:
+          test-name: SimpleTest
+          setup-command: echo "Good Luck"
+          command: cd build && ctest .
+          timeout: 5
+      - name: Autograding Reporter
+        uses: https://gitverse.ru/art/autograding-grading-reporter@v2
+        env:
+          TEST1_RESULTS: ${{steps.test1.outputs.result}}
+        with:
+          runners: test1
